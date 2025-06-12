@@ -24,7 +24,5 @@ jobs:
       # Run the autograder with the student's submission
       - name: Run Lean Autograder
         run: |
-          # Assuming student's submission is named `submission.lean`
-          # and exists in the repo, or was uploaded as part of the assignment.
           lake exe autograder --local Homework02.lean AutograderTests/Homework02-2.lean
 
